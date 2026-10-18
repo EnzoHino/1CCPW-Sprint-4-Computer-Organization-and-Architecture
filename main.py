@@ -57,7 +57,7 @@ def gerenciar_energia(energia_disponivel):
         print(f"Fornecimento -> EV1: {energia_disponivel}W | EV2: 0W (Bloqueado) | EV3: 0W (Bloqueado)")
         print("Decisão: Risco de queda geral. Sistema bloqueou EV2 e EV3 e direcionou o restante para o EV1.")
 
-# 3. Loop Principal de Execução (O que rodará durante o seu vídeo)
+# 3. Loop Principal de Execução
 while True:
     # Simula a Situação 1
     gerenciar_energia(8000)
