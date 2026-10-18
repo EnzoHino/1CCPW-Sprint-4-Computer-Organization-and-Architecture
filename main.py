@@ -52,7 +52,7 @@ def gerenciar_energia(energia_disponivel):
         
     else: # Baixa disponiblidade
         print("STATUS: RECARGA LIMITADA (Veículos em Espera)")
-        led_vermelho.value(1) # Acende LED Vermelho
+        led_vermelho.value(1)
         
         print(f"Fornecimento -> EV1: {energia_disponivel}W | EV2: 0W (Bloqueado) | EV3: 0W (Bloqueado)")
         print("Decisão: Risco de queda geral. Sistema bloqueou EV2 e EV3 e direcionou o restante para o EV1.")
